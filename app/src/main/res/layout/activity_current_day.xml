@@ -20,13 +20,13 @@
         android:textSize="26sp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="22"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="26sp" />
 </RelativeLayout>
